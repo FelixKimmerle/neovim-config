@@ -14,4 +14,14 @@ M.dap = {
   }
 }
 
+M.general = {
+  n = {
+   -- Rebind hjkl to jkl;
+    ["j"] = { "h", "Move left" },
+    ["k"] = { "j", "Move down" },
+    ["l"] = { "k", "Move up" },
+    [";"] = { "l", "Move right" },
+  },
+}
+
 return M
